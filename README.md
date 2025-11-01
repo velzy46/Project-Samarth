@@ -2,6 +2,18 @@
 
 An interactive chatbot that compares rainfall across Indian states and suggests suitable crops based on rainfall type.
 
+# **Architecture** :
+
+User (asks question)
+        ↓
+Chat Interface (Streamlit)
+        ↓
+Reasoning Engine (qa_engine.py)
+        ↓
+Data Layer (rainfall.csv + crops.csv)
+        ↓
+Result + Source Citation
+
 ### 💡 Features
 - Compare rainfall between two states
 - Identify crops suited for high or low rainfall
@@ -26,3 +38,5 @@ Built by **Velzy (Saraswathi)** for **Bharat Fellowship 2025**.
 ```bash
 pip install -r requirements.txt
 python app.py
+
+
