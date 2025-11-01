@@ -1,0 +1,12 @@
+crop,rainfall_type,description
+Rice,High,Requires high rainfall and standing water.
+Sugarcane,High,Needs high rainfall or irrigation.
+Jute,High,Grows in hot and humid climates.
+Tea,High,Thrives in areas with frequent rainfall.
+Maize,Moderate,Grows in both moderate and high rainfall.
+Wheat,Low,Best in dry and cool weather.
+Bajra,Low,Tolerates dry conditions.
+Ragi,Low,Grows in semi-arid regions.
+Cotton,Moderate,Needs moderate rainfall and sunshine.
+Groundnut,Low,Prefers dry conditions with light rain.
+Barley,Low,Can survive in low-rainfall regions.

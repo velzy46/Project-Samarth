@@ -1,0 +1,114 @@
+/* ----------- Reset & Base ----------- */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ----------- Container ----------- */
+.container {
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------- Header ----------- */
+header {
+  background: linear-gradient(90deg, #4fc3f7, #9575cd);
+  color: white;
+  text-align: center;
+  padding: 18px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header .subtitle {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* ----------- Chat Window ----------- */
+.chat-window {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  background: #f8f9fb;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------- Messages ----------- */
+.message {
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 12px;
+  max-width: 80%;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.message.user {
+  background: #d1c4e9;
+  color: #222;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+.message.bot {
+  background: #e3f2fd;
+  color: #000;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+/* ----------- Chat Form ----------- */
+.chat-form {
+  display: flex;
+  border-top: 1px solid #ddd;
+  background: #fafafa;
+}
+
+.chat-form input {
+  flex: 1;
+  border: none;
+  padding: 14px;
+  font-size: 0.95rem;
+  border-radius: 0;
+  outline: none;
+}
+
+.chat-form button {
+  background: #4fc3f7;
+  color: white;
+  border: none;
+  padding: 0 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chat-form button:hover {
+  background: #29b6f6;
+}
+
+/* ----------- Footer Note ----------- */
+.note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+  background: #f3f3f3;
+  padding: 10px 8px;
+}

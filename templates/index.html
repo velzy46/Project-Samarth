@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Project Samarth — Chat Prototype</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌦️ Project Samarth</h1>
+      <p class="subtitle">Rainfall Comparison Chat Assistant</p>
+    </header>
+
+    <main id="chat" class="chat-window"></main>
+
+    <form id="chatForm" autocomplete="off" class="chat-form">
+      <input 
+        id="msg" 
+        type="text" 
+        placeholder="Curious about rainfall patterns? Ask me anything!" 
+      />
+      <button type="submit">Send</button>
+    </form>
+
+    <footer class="note">
+      💡 Powered by <strong>Project Samarth</strong> — your smart assistant for rainfall insights.
+    </footer>
+  </div>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>
